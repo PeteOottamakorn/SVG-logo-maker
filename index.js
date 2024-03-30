@@ -43,7 +43,13 @@ function init() {
     console.log(answers);
     const fileName = answers.fileName;
     // Once prompt is completed, create SVG file in examples folder
-    fs.writeFile(`./examples/${fileName}.svg`, generateLogo(answers));
+    fs.writeFile(`./examples/${fileName}.svg`, generateLogo(answers), (err) => {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log(`New SVG file has been created`);
+      }
+    });
   });
 }
 

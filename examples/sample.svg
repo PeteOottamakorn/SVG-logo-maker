@@ -1,0 +1,5 @@
+
+    <svg width="300" height="300">
+        <rect width="250" height="250" x="25" y="25" fill="#3B429F" />
+        <text x="150" y="175" fill="#F4A5AE" text-anchor="middle" font-size="70">SAM</text>
+    </svg>

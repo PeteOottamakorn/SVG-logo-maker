@@ -3,7 +3,7 @@ const Text = require("../lib/text");
 describe("Text", () => {
   test("should return the letter 'A' in yellow", () => {
     //Arrange
-    const textCode = `<text x="150" y="150" fill="yellow" text-anchor="middle">A</text>`;
+    const textCode = `<text x="150" y="175" fill="yellow" text-anchor="middle" font-size="70">A</text>`;
     //Act
     const textTest = new Text("A", "yellow");
     //Assert
@@ -11,7 +11,7 @@ describe("Text", () => {
   });
   test("should return the letters 'PO' in blue", () => {
     //Arrange
-    const textCode = `<text x="150" y="150" fill="blue" text-anchor="middle">PO</text>`;
+    const textCode = `<text x="150" y="175" fill="blue" text-anchor="middle" font-size="70">PO</text>`;
     //Act
     const textTest = new Text("PO", "blue");
     //Assert
@@ -19,7 +19,7 @@ describe("Text", () => {
   });
   test("should return the letters 'YES' in the color jade using hexadecimal code", () => {
     //Arrange
-    const textCode = `<text x="150" y="150" fill="#26A96C" text-anchor="middle">YES</text>`;
+    const textCode = `<text x="150" y="175" fill="#26A96C" text-anchor="middle" font-size="70">YES</text>`;
     //Act
     const textTest = new Text("YES", "#26A96C");
     //Assert

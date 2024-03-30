@@ -1,0 +1,5 @@
+
+    <svg width="300" height="300">
+        <circle r="125" cx="150" cy="150" fill="#3F88C5" />
+        <text x="150" y="150" fill="#FFBA08" text-anchor="middle" font-size="90">ITC</text>
+    </svg>
